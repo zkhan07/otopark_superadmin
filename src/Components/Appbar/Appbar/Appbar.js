@@ -135,20 +135,13 @@ export default function AppBar1(props) {
           >
             {/* dropdown */}
 
-            {/* <div style={props.style}>
-              <select className={classes.appbarDropdown} style={props.style1}>
-                <option selected>Location</option>
-                <option>Goregaon (East)</option>
-                <option>Goregaon (West)</option>
-                <option>Goregaon (East)</option>
-              </select>
-            </div> */}
 
             <div style={props.style}>
               <select style={props.style1} className={classes.appbarDropdown}>
+              <option>Select Parking</option>
                 {locationNames &&
                   locationNames.map(res => {
-                    return <option>{res.name}</option>;
+                    return <option>{res.name}</option>
                   })}
               </select>
             </div>
