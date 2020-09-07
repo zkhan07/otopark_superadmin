@@ -48,8 +48,8 @@ export default function CustomizedMenus() {
 
   const [startDate, setStartDate] = useState(new Date());
 
-  const [startDate1, setStartDate1] = useState(new Date("2014/02/08"));
-  const [endDate, setEndDate] = useState(new Date("2014/04/08"));
+  const [startDate1, setStartDate1] = useState(new Date());
+  const [endDate, setEndDate] = useState(new Date());
 
   const [openDate, setOpenDate] = useState(false);
 
